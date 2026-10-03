@@ -5,7 +5,10 @@
 RealVolumeNormalizer 通过分析网页视频的实时音频信号，计算当前视频的实际响度，并自动调整视频网站播放器自身的音量条，使视频声音保持在用户设定的舒适范围内。
 
 ---
+# Special Statement
+本脚本和Readme由chatgpt编写，由本人监督和测试修改。
 
+---
 ## Features
 
 * 🎧 实时检测网页视频真实音量
@@ -68,15 +71,8 @@ Web Audio API Analyzer
 RealVolumeNormalizer.user.js
 ```
 
-打开文件，Tampermonkey 会自动进入安装页面。
+打开文件，复制内部文本，再打开浏览器插件油猴，创建新脚本，把复制内容放进去，保存，确保脚本打开。
 
-点击：
-
-```
-Install
-```
-
-即可。
 
 ---
 
